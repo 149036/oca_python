@@ -1,1 +1,1 @@
-# -_python
+# 演習用-_python
