@@ -33,6 +33,15 @@ def abc():
 print(abc())
 
 
+def a(b: int) -> int:
+    return b
+
+
+print("/////////////")
+print(a(1))
+print("/////////////")
+
+
 def abcd(x):
     return x
 
