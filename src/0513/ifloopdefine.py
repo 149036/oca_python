@@ -8,6 +8,7 @@ def b(x: int) -> str:
     return "奇数"
 
 
-for i in range(5):
+y = [55, 6, 99, 66, 68, 90, 35, 56]
+
+for i in y:
     print(b(a(i)))
-        
