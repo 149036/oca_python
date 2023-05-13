@@ -71,12 +71,28 @@ a, b = 1, 1
 if a and b:
     print(a, b)
 
-a, b = 1, 1
+a, b = 1, 0
+if a and b:
+    print(a, b)
+else:
+    print(False)
+
 
 print("#################################")
 
 
+def isA(a):
+    return a == "A"
+
+
+print(isA("A"))
+print(isA("a"))
+print(isA("B"))
+print(isA(9))
+
 print("#################################")
+
+
 print("#################################")
 print("#################################")
 print("#################################")
